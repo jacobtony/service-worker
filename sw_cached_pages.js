@@ -36,7 +36,7 @@ self.addEventListener("fetch", (e) => {
                cache.put(e.request, resClone);
 
             })
-            console.log(res)
+            console.log("jaacob"+"res")
             return res
         })
         .catch(() => {
