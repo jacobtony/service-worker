@@ -36,6 +36,7 @@ self.addEventListener("fetch", (e) => {
                cache.put(e.request, resClone);
 
             })
+            console.log("jacob tony");
             return res
         })
         .catch(() => {
